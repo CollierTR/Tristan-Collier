@@ -395,7 +395,7 @@ canvas {
 
     }
 
-    .typed, .type-box #type-text .blinking-cursor {
+    .typed, .type-box, #type-text, .blinking-cursor, .type-box span {
         display: none;
     }
 
