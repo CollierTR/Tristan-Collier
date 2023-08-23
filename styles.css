@@ -296,6 +296,10 @@ canvas {
     100% { visibility: hidden }
   }
 
+.mobile-blocker {
+    display: none;
+}
+
 /*-----------------------------------------------------------------   mobile responsiveness   */
 
 @media only screen and (max-width: 600px) {
@@ -378,4 +382,33 @@ canvas {
         width: 80%;
     }
 
+    .mobile-blocker {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: #1d1d1d;
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+
+
+/*  ------------------------------------to fix mobile*/
+
+    .mobile-blocker p {
+        color: #0ecc27;
+        font-size: 1em;
+    }
+
+    main {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
 }
