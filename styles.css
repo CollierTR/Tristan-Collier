@@ -329,7 +329,9 @@ canvas {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        padding: 1em;
     }
+    
     
     header {
         display: flex;
