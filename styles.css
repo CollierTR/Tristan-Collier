@@ -125,7 +125,7 @@ nav a {
 /*-----------------------------------------------------------------   Twitter feed   */
 
 #twitter {
-    display: grid;
+    display: hidden; /*----------------------------------------------------- change me!!!!!!!!!!!!!!!!!!!*/
     place-items: center;
     margin-bottom: 200px;
 }
