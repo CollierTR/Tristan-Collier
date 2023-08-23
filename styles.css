@@ -400,8 +400,12 @@ canvas {
     }
 
     #my-pic {
-        margin-top: 4em;
-        margin-bottom: 4em;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    header {
+        height: auto;
     }
 
 
